@@ -38,6 +38,8 @@ class Home extends Component {
 				<div className="copyright">
 					关注中国集邮官方服务号，及时了解活动情况
 				</div>
+
+				
 			</div>
 		)
 	}

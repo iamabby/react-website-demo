@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 import "./tab.less";
 
@@ -15,10 +15,10 @@ class Tab extends React.Component {
 			<div className="tab">
 			 <ul>
 			  <li>
-			     <Link to="/Home">
-					 <img src={homePic} alt="" />
-			     <span>首页</span>
-			     </Link>
+			     <div className="rule">	 
+					<img src={homePic} alt="" />
+					<span style={{color:"#fff"}}>活动规则</span>
+				 </div>
 			  </li>
 			  <li>
 			     <Link to="/Draw">
